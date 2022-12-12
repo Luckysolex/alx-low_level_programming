@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
+ * main - print the letters of the alphabet
  *
  * description: print alphabet except q and e
  *
