@@ -2,7 +2,7 @@
 /**
  * main - print double digit combos
  *
- * Description: print double digit combos 
+ * Description: print double digit combos
  *
  */
 int main(void)
@@ -43,5 +43,5 @@ int main(void)
 		i++;
 	}
 	putchar(10);
-	return(0);
+	return (0);
 }
