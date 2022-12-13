@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print all the numbers of base 16
+ * main - print the letters of the alphabet
  *
- * Description: print all the numbers of base 16 in lowercase
+ * description: print the letters of the alphabet
  *
  * Return: Always 0 (success)
  */
@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar(i + '0');
 		}
-		else if (i > 41);
+		else if (i > 41)
 		{
 			putchar(i - 10 + 'A');
 		}
