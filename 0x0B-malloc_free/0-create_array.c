@@ -9,30 +9,24 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char array;
+	char *arr;
 	unsigned int i;
 
-	i = 0;
+	arr = (char *) malloc(size * sizeof(char));
+	if (arr == NULL)
+		return (NULL);
 
-	if (size == 0)
+	if (size != 0)
 	{
-		return ('\0');
+		for (i = 0; i < size; i++)
+		{
+			*(arr + i) = c;
+		}
+
+		return (arr);
 	}
 	else
 	{
-		array = malloc(sizeof(char) * size);
-		if (array == '\0')
-		{
-			return ('\0');
-		}
-		else
-		{
-			while (i < size)
-			{
-				array[i] = c;
-				i++;
-			}
-		}
-		return (array);
+		return (NULL);
 	}
 }
