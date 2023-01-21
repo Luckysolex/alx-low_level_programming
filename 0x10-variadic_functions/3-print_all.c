@@ -1,4 +1,3 @@
-#include <stdarg.h>
 #include "variadic_functions.h"
 /**
  * print_char - prints a character
