@@ -1,12 +1,14 @@
 #include "lists.h"
+#include <string.h>
 
 /**
  * add_node - adds a new nodeat the
- * beginning of a list
+ *		beginning of a list
  * @head: a pointer to the head of the list
  * @str: string to be added
+ *
  * Return: if the function fail - NULL
- * otherwise
+ *	otherwise - the address of the new element
  */
 
 list_t *add_node(list_t **head, const char *str)
