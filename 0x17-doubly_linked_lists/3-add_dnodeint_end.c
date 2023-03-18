@@ -4,7 +4,7 @@
  * @head: head of the doubly linked list
  * @n: data to insert in the list
  *
- * Return: the address of the new element or NULL if failed
+ * Return: the address of the new element or NULL if it failed
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -21,7 +21,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new_node->n = n;
 	new_node->next = NULL;
 
-	if (end_node != NULL);
+	if (end_node != NULL)
 	{
 		while (end_node->next != NULL)
 		{
