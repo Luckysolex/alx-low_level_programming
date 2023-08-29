@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """Module that defines perimeter of an island"""
 
+
 def island_perimeter(grid):
     """Method to find the island perimeter
+
     The grid represents water by 0 and land by 1.
 
     Args:
